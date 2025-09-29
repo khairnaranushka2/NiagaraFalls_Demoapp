@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  L1 Demo
-//
-//  Created by Chris Ching on 2022-11-09.
-//
-
 import SwiftUI
 
 struct ContentView: View {
@@ -20,10 +13,10 @@ struct ContentView: View {
                     .resizable()
                     .cornerRadius(15)
                     .aspectRatio(contentMode: .fit)
-                    .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
+                    .padding(.all)
                 Text("Niagara Falls")
-                    .font(/*@START_MENU_TOKEN@*/.largeTitle/*@END_MENU_TOKEN@*/)
-                    .fontWeight(/*@START_MENU_TOKEN@*/.semibold/*@END_MENU_TOKEN@*/)
+                    .font(.largeTitle)
+                    .fontWeight(.semibold)
                     .foregroundColor(Color.white)
             }
         }
